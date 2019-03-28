@@ -376,7 +376,6 @@ public class Leaderboard extends JPanel implements ActionListener {
      */
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == returnToMenu) {
-
             game.exitGame();
 
         }
